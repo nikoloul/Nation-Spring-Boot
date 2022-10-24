@@ -1,0 +1,59 @@
+package com.nation.demo.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "country_stats")
+public class CountryStats {
+	@OneToOne(mappedBy = "countryStats")
+    private Country country;
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name = "year")
+	private int year;
+	
+	@Column(name = "population")
+	private int population;
+	
+	@Column(name = "gdp")
+	private int gdp;
+
+	public Country getCountry() {
+		return country;
+	}
+
+	public void setCountry(Country country) {
+		this.country = country;
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	public int getPopulation() {
+		return population;
+	}
+
+	public void setPopulation(int population) {
+		this.population = population;
+	}
+
+	public int getGdp() {
+		return gdp;
+	}
+
+	public void setGdp(int gdp) {
+		this.gdp = gdp;
+	}
+}

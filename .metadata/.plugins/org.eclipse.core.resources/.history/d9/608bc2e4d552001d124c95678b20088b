@@ -1,0 +1,5 @@
+package com.nation.demo.model;
+
+public class CountryStatsCompositeKey {
+
+}

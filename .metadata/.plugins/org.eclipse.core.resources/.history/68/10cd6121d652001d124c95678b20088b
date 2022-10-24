@@ -1,0 +1,67 @@
+package com.nation.demo.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.IdClass;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "country_stats")
+@IdClass(CountryStatsCompositeKey.class)
+public class CountryStats {
+	@Id
+	@Column(name = "year")
+	private int year;
+	
+	@Id
+	@Column(name = "country_id")
+	private int countryId;
+	
+	@ManyToOne
+    @JoinColumn(name="country_id")
+    private Country country;
+	  
+	@Column(name = "population")
+	private long population;
+	
+	@Column(name = "gdp")
+	private long gdp;
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	public long getPopulation() {
+		return population;
+	}
+
+	public void setPopulation(long population) {
+		this.population = population;
+	}
+
+	public long getGdp() {
+		return gdp;
+	}
+
+	public void setGdp(long gdp) {
+		this.gdp = gdp;
+	}
+
+	public Country getCountry() {
+		return country;
+	}
+
+	public void setCountry(Country country) {
+		this.country = country;
+	}
+
+}

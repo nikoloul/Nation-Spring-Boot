@@ -1,0 +1,92 @@
+package com.nation.demo.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+import javax.persistence.EmbeddedId;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.IdClass;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.MapsId;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "country_stats")
+public class CountryStats implements Serializable{
+	
+	 /**
+	 * 
+	 */
+	private static final long serialVersionUID = -2752547350409302318L;
+
+	@Embeddable
+	    static class Pk implements Serializable {
+	        /**
+		 * 
+		 */
+		private static final long serialVersionUID = -1856499821447942637L;
+
+			@ManyToOne
+	        @JoinColumn(name = "country_id")
+	        private Country country;
+
+	        @Column(nullable = false, updatable = false)
+	        private int year;
+
+			public Country getCountry() {
+				return country;
+			}
+
+			public void setCountry(Country country) {
+				this.country = country;
+			}
+
+			public int getYear() {
+				return year;
+			}
+
+			public void setYear(int year) {
+				this.year = year;
+			}
+
+			public static long getSerialversionuid() {
+				return serialVersionUID;
+			}
+			
+
+	    }
+
+	    @EmbeddedId
+	    private Pk id;
+	
+
+	  
+	@Column(name = "population")
+	private long population;
+	
+	@Column(name = "gdp")
+	private long gdp;
+
+	public long getPopulation() {
+		return population;
+	}
+
+	public void setPopulation(long population) {
+		this.population = population;
+	}
+
+	public long getGdp() {
+		return gdp;
+	}
+
+	public void setGdp(long gdp) {
+		this.gdp = gdp;
+	}
+
+
+}

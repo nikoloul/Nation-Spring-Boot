@@ -1,0 +1,13 @@
+package com.nation.demo.model;
+
+import javax.persistence.Entity;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "languages")
+public class Language {
+
+	@OneToOne(mappedBy = "language")
+    private CountryLanguage language;
+}

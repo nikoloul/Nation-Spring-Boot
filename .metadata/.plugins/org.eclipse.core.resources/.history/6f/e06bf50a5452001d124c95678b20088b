@@ -1,0 +1,15 @@
+package com.nation.demo.repository;
+
+import java.util.Collection;
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import com.nation.demo.model.Country;
+
+public interface CountryRepository extends JpaRepository<Country, Long> {
+
+	        @Query("SELECT u.name, u.countryCode3, u.countryStats.population FROM Country u WHERE u.countryId = 1")
+			Optional<Country> findAllActiveUsersNative();
+}

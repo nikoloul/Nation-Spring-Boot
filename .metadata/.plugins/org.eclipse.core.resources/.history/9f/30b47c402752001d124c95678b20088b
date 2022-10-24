@@ -1,0 +1,64 @@
+package com.nation.demo.model;
+
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "country_languages")
+public class CountryLanguage {
+	
+	@OneToOne(mappedBy = "countryLanguage")
+    private Country country;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name = "language_id")
+	private long languageId;
+	
+	@Column(name = "official")
+	private String official;
+
+	
+	  @OneToMany(mappedBy = "country", fetch = FetchType.LAZY,
+	            cascade = CascadeType.ALL)
+	    private Set<Language> languages;
+
+
+	public long getLanguageId() {
+		return languageId;
+	}
+
+	public void setLanguageId(long languageId) {
+		this.languageId = languageId;
+	}
+
+	public String getOfficial() {
+		return official;
+	}
+
+	public void setOfficial(String official) {
+		this.official = official;
+	}
+
+	public Country getCountry() {
+		return country;
+	}
+
+	public void setCountry(Country country) {
+		this.country = country;
+	}
+	
+	
+
+}

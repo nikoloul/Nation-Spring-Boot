@@ -1,0 +1,16 @@
+package com.nation.demo.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class CountryStatsCompositeKey implements Serializable  {
+
+	   @Column(name = "year",  nullable=false, updatable=false)
+	    private int year;
+
+	    @Column(name = "country_id" ,  nullable=false, updatable=false)
+	    private int countryId;
+}

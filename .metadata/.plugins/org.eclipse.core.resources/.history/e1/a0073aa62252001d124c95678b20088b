@@ -1,0 +1,10 @@
+package com.nation.demo.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "regions")
+public class Region {
+
+}

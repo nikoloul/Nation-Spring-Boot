@@ -1,0 +1,152 @@
+2022-10-24 10:24:00.008  WARN 10764 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h50m40s479ms823µs).
+2022-10-24 11:17:33.851  INFO 15040 --- [main] com.nation.demo.NationApplication        : Starting NationApplication using Java 17.0.4.1 on DESKTOP-7M6HNO0 with PID 15040 (C:\Users\Natalia\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\Nation\target\classes started by Natalia in C:\Users\Natalia\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\Nation)
+2022-10-24 11:17:33.857  INFO 15040 --- [main] com.nation.demo.NationApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-10-24 11:17:34.775  INFO 15040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-24 11:17:34.848  INFO 15040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2022-10-24 11:17:34.990  WARN 15040 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nation.demo]' package. Please check your configuration.
+2022-10-24 11:17:35.628  INFO 15040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-24 11:17:35.647  INFO 15040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-24 11:17:35.647  INFO 15040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-24 11:17:35.834  INFO 15040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-24 11:17:35.835  INFO 15040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1881 ms
+2022-10-24 11:17:36.058  INFO 15040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-24 11:17:36.170  INFO 15040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-24 11:17:36.250  INFO 15040 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-24 11:17:36.365  INFO 15040 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-24 11:17:36.645  INFO 15040 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-24 11:17:36.830  INFO 15040 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-24 11:17:37.250  WARN 15040 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.nation.demo.model.CountryStats$Pk
+2022-10-24 11:17:37.250  WARN 15040 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.nation.demo.model.CountryStats$Pk
+2022-10-24 11:17:37.749  INFO 15040 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-24 11:17:37.765  INFO 15040 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-24 11:17:38.319  WARN 15040 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-24 11:17:38.889  INFO 15040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-24 11:17:38.904  INFO 15040 --- [main] com.nation.demo.NationApplication        : Started NationApplication in 5.63 seconds (JVM running for 7.129)
+2022-10-24 11:18:02.477  INFO 15040 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-24 11:18:02.479  INFO 15040 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-24 11:18:02.480  INFO 15040 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-24 12:27:14.201  WARN 15040 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m37s373ms800µs700ns).
+2022-10-24 19:40:58.782  INFO 10076 --- [main] com.nation.demo.NationApplication        : Starting NationApplication using Java 17.0.4.1 on DESKTOP-7M6HNO0 with PID 10076 (C:\Users\Natalia\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\Nation\target\classes started by Natalia in C:\Users\Natalia\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\Nation)
+2022-10-24 19:40:58.786  INFO 10076 --- [main] com.nation.demo.NationApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-10-24 19:40:59.619  INFO 10076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-24 19:40:59.690  INFO 10076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2022-10-24 19:40:59.819  WARN 10076 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nation.demo]' package. Please check your configuration.
+2022-10-24 19:41:00.369  INFO 10076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-24 19:41:00.385  INFO 10076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-24 19:41:00.386  INFO 10076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-24 19:41:00.538  INFO 10076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-24 19:41:00.538  INFO 10076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1668 ms
+2022-10-24 19:41:00.771  INFO 10076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-24 19:41:00.876  INFO 10076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-24 19:41:00.953  INFO 10076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-24 19:41:01.058  INFO 10076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-24 19:41:01.479  INFO 10076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-24 19:41:01.666  INFO 10076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-24 19:41:02.083  WARN 10076 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.nation.demo.model.CountryStats$Pk
+2022-10-24 19:41:02.084  WARN 10076 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.nation.demo.model.CountryStats$Pk
+2022-10-24 19:41:02.760  INFO 10076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-24 19:41:02.778  INFO 10076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-24 19:41:03.404  WARN 10076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-24 19:41:04.344  INFO 10076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-24 19:41:04.373  INFO 10076 --- [main] com.nation.demo.NationApplication        : Started NationApplication in 6.153 seconds (JVM running for 7.128)
+2022-10-24 19:41:46.171  INFO 10076 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-24 19:41:46.172  INFO 10076 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-24 19:41:46.174  INFO 10076 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-10-24 19:42:03.889  INFO 10076 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-24 19:42:03.911  INFO 10076 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-24 19:42:03.913  INFO 10076 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-24 19:42:03.922  INFO 10076 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-24 19:42:03.924  INFO 10076 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-24 19:42:03.937  INFO 10076 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-24 19:42:06.040  INFO 5252 --- [main] com.nation.demo.NationApplication        : Starting NationApplication using Java 17.0.4.1 on DESKTOP-7M6HNO0 with PID 5252 (C:\Users\Natalia\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\Nation\target\classes started by Natalia in C:\Users\Natalia\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\Nation)
+2022-10-24 19:42:06.044  INFO 5252 --- [main] com.nation.demo.NationApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-10-24 19:42:06.743  INFO 5252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-24 19:42:06.804  INFO 5252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2022-10-24 19:42:06.914  WARN 5252 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nation.demo]' package. Please check your configuration.
+2022-10-24 19:42:07.359  INFO 5252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-24 19:42:07.372  INFO 5252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-24 19:42:07.372  INFO 5252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-24 19:42:07.519  INFO 5252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-24 19:42:07.519  INFO 5252 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1404 ms
+2022-10-24 19:42:07.705  INFO 5252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-24 19:42:07.786  INFO 5252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-24 19:42:07.844  INFO 5252 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-24 19:42:07.931  INFO 5252 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-24 19:42:08.151  INFO 5252 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-24 19:42:08.312  INFO 5252 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-24 19:42:08.664  WARN 5252 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.nation.demo.model.CountryStats$Pk
+2022-10-24 19:42:08.665  WARN 5252 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.nation.demo.model.CountryStats$Pk
+2022-10-24 19:42:09.034  INFO 5252 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-24 19:42:09.047  INFO 5252 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-24 19:42:09.468  WARN 5252 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-24 19:42:09.886  INFO 5252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-24 19:42:09.898  INFO 5252 --- [main] com.nation.demo.NationApplication        : Started NationApplication in 4.289 seconds (JVM running for 5.086)
+2022-10-24 19:42:32.382  INFO 5252 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-24 19:42:32.383  INFO 5252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-24 19:42:32.384  INFO 5252 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-24 19:55:21.448  INFO 5252 --- [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-24 19:55:21.474  INFO 5252 --- [RMI TCP Connection(20)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-24 19:55:21.476  INFO 5252 --- [RMI TCP Connection(20)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-24 19:55:21.484  INFO 5252 --- [RMI TCP Connection(20)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-24 19:55:21.486  INFO 5252 --- [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-24 19:55:21.493  INFO 5252 --- [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-24 19:55:24.167  INFO 6528 --- [main] com.nation.demo.NationApplication        : Starting NationApplication using Java 17.0.4.1 on DESKTOP-7M6HNO0 with PID 6528 (C:\Users\Natalia\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\Nation\target\classes started by Natalia in C:\Users\Natalia\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\Nation)
+2022-10-24 19:55:24.171  INFO 6528 --- [main] com.nation.demo.NationApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-10-24 19:55:24.894  INFO 6528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-24 19:55:24.957  INFO 6528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2022-10-24 19:55:25.090  WARN 6528 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nation.demo]' package. Please check your configuration.
+2022-10-24 19:55:25.547  INFO 6528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-24 19:55:25.560  INFO 6528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-24 19:55:25.560  INFO 6528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-24 19:55:25.726  INFO 6528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-24 19:55:25.727  INFO 6528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1477 ms
+2022-10-24 19:55:25.942  INFO 6528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-24 19:55:26.037  INFO 6528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-24 19:55:26.108  INFO 6528 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-24 19:55:26.206  INFO 6528 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-24 19:55:26.412  INFO 6528 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-24 19:55:26.555  INFO 6528 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-24 19:55:26.852  WARN 6528 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.nation.demo.model.CountryStats$Pk
+2022-10-24 19:55:26.853  WARN 6528 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.nation.demo.model.CountryStats$Pk
+2022-10-24 19:55:27.229  INFO 6528 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-24 19:55:27.240  INFO 6528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-24 19:55:27.775  WARN 6528 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-24 19:55:28.221  INFO 6528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-24 19:55:28.234  INFO 6528 --- [main] com.nation.demo.NationApplication        : Started NationApplication in 4.635 seconds (JVM running for 5.594)
+2022-10-24 19:57:48.162  INFO 6528 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-24 19:57:48.195  INFO 6528 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-24 19:57:48.203  INFO 6528 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-24 19:57:48.205  INFO 6528 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-24 19:57:48.210  INFO 6528 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-24 19:57:50.603  INFO 580 --- [main] com.nation.demo.NationApplication        : Starting NationApplication using Java 17.0.4.1 on DESKTOP-7M6HNO0 with PID 580 (C:\Users\Natalia\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\Nation\target\classes started by Natalia in C:\Users\Natalia\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\Nation)
+2022-10-24 19:57:50.606  INFO 580 --- [main] com.nation.demo.NationApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-10-24 19:57:51.331  INFO 580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-24 19:57:51.390  INFO 580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2022-10-24 19:57:51.500  WARN 580 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nation.demo]' package. Please check your configuration.
+2022-10-24 19:57:51.982  INFO 580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-24 19:57:52.004  INFO 580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-24 19:57:52.005  INFO 580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-24 19:57:52.150  INFO 580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-24 19:57:52.150  INFO 580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1460 ms
+2022-10-24 19:57:52.341  INFO 580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-24 19:57:52.445  INFO 580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-24 19:57:52.519  INFO 580 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-24 19:57:52.618  INFO 580 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-24 19:57:52.831  INFO 580 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-24 19:57:52.969  INFO 580 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-24 19:57:53.276  WARN 580 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.nation.demo.model.CountryStats$Pk
+2022-10-24 19:57:53.276  WARN 580 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.nation.demo.model.CountryStats$Pk
+2022-10-24 19:57:53.706  INFO 580 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-24 19:57:53.722  INFO 580 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-24 19:57:54.182  WARN 580 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-24 19:57:54.603  INFO 580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-24 19:57:54.616  INFO 580 --- [main] com.nation.demo.NationApplication        : Started NationApplication in 4.548 seconds (JVM running for 5.336)
+2022-10-24 19:58:56.828  INFO 580 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-24 19:58:56.828  INFO 580 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-24 19:58:56.830  INFO 580 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-10-24 20:57:07.331  INFO 580 --- [RMI TCP Connection(67)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-24 20:57:07.356  INFO 580 --- [RMI TCP Connection(67)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-24 20:57:07.359  INFO 580 --- [RMI TCP Connection(67)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-24 20:57:07.372  INFO 580 --- [RMI TCP Connection(67)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-24 20:57:07.374  INFO 580 --- [RMI TCP Connection(67)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-24 20:57:07.378  INFO 580 --- [RMI TCP Connection(67)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
